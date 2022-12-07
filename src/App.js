@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './components/Welcome';
+import Header from './components/Heder'
 
 
 
@@ -8,10 +9,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <div>
-        <Welcome></Welcome>
-      </div>
+        <Header title='Props Header Titulo' />
+        </div>
+        <img src={logo} className="App-logo" alt="logo" />
+        <Welcome />
       </header>
     </div>
     
