@@ -2,7 +2,7 @@
 import React from "react";
 
 // Logica
-var gente = "Hola gente!"
+// var gente = "Hola gente!"
 function formatName(user) {
     return user.firstName + ' ' + user.lastName;
 }
