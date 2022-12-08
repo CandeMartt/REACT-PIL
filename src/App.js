@@ -2,7 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from './components/Welcome';
 import Header from './components/Heder'
-
+/* import SimpleState from './components/React_Clase_Function/componente_clase'*/ 
+import SimpleStateFunction from './components/React_Clase_Function/componente_clase';
+/* import Coordenadas from './components/React_Clase_Function/componente_clase_avanzado'; */
+import Coordenadas from './components/React_Clase_Function/componente_funcion_avanzado';
 
 
 function App() {
@@ -12,8 +15,14 @@ function App() {
         <div>
         <Header title='Props Header Titulo' />
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <Welcome />
+        <div>
+          <img src={logo} className="App-logo" alt="logo" />
+          <Welcome />
+          {/*<SimpleState />*/}
+          <SimpleStateFunction />
+          {/* <Coordenadas /> */}
+          <Coordenadas />
+        </div>
       </header>
     </div>
     
